@@ -6,7 +6,7 @@
 /*   By: sforster <sforster@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 08:50:30 by sforster          #+#    #+#             */
-/*   Updated: 2023/11/20 11:45:06 by sforster         ###   ########.fr       */
+/*   Updated: 2023/11/21 11:28:52 by sforster         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,20 +18,20 @@ int main(void)
 	printf("I was in %s this weekend for %d days\n", "Paris", 12);
 
 //	printf("testpointer %d", )
-	printf("test petit 1 x %x \n", 1);
-	printf("test petit 2 x %x \n", 2);
-	printf("test petit 3 x %x \n", 3);
-	printf("test petit 4 x %x \n", 4);
-	printf("test petit 5 x %x \n", 5);
-	printf("test petit 6 x %x \n", 6);
-	printf("test petit 9 x %x \n", 9);
-	printf("test petit 10 x %x \n", 10);
-	printf("test petit 11 x %x \n", 11);
-	printf("test petit 12 x %x \n", 12);
-	printf("test petit 13 x %x \n", 13);
-	printf("test petit 14 x %x \n", 14);
-	printf("test petit 15 x %x \n", 15);
-	printf("test petit 16 x %x \n", 16);
+	printf("test petit -1 x %x \n", -1);
+	printf("test petit -2 x %x \n", -2);
+	printf("test petit -3 x %x \n", -3);
+	printf("test petit -4 x %x \n", -4);
+	printf("test petit -5 x %x \n", -5);
+	printf("test petit -6 x %x \n", -6);
+	printf("test petit -9 x %x \n", -9);
+	printf("test petit -10 x %x \n", -10);
+	printf("test petit -11 x %x \n", -11);
+	printf("test petit -12 x %x \n", -12);
+	printf("test petit -13 x %x \n", -13);
+	printf("test petit -14 x %x \n", -14);
+	printf("test petit -15 x %x \n", -15);
+	printf("test petit -16 x %x \n", -16);
 	printf("test petit 17 x %x \n", 17);
 	printf("test petit 18 x %x \n", 18);	
 	printf("test petit 19 x %x \n", 19);
@@ -56,13 +56,13 @@ int main(void)
 	printf("test petit 1000 x %x \n", 2000);
 	printf("test petit 300 x %x \n", 300);	
 	printf("test petit 301 x %x \n", 301);
-	printf("test petit 101 x %x \n", 101);
+	printf("test petit -101 x %x \n", -101);
 	printf("test petit 102 x %x \n", 102);
 	printf("test petit 150 x %x \n", 150);
 	printf("laaatest petit 160 x %x \n", 160);	
 	printf("test petit 161 x %x \n", 161);
 	printf("test petit 320 x %x \n", 320);
-	printf("test petit 319 x %x \n", 319);
+	printf("test petit -12 x %x \n", -12);
 	
-	printf("test grand X %X \n", 125642);
+	printf("test grand -1 %X \n", -1);
 }
