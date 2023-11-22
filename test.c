@@ -6,7 +6,7 @@
 /*   By: sforster <sforster@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 08:50:30 by sforster          #+#    #+#             */
-/*   Updated: 2023/11/21 11:28:52 by sforster         ###   ########.fr       */
+/*   Updated: 2023/11/22 11:23:15 by sforster         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,8 +61,14 @@ int main(void)
 	printf("test petit 150 x %x \n", 150);
 	printf("laaatest petit 160 x %x \n", 160);	
 	printf("test petit 161 x %x \n", 161);
-	printf("test petit 320 x %x \n", 320);
-	printf("test petit -12 x %x \n", -12);
-	
+	printf("test petit -25 x %x \n", -25);
+	printf("test petit celui ci x %lu \n", "yoo");
+	printf("test petit celui ci x %p \n", "yoo");
+	printf("test petit celui ci x %u \n", "salut");
+	printf("test petit celui ci x %p \n", "salut");
+	printf("combien %d \n", printf("%x", -1));
+	printf("combien %d \n", printf("%x", -25));
+	printf("combien %d \n", printf("%x", -654875855586878867));
+
 	printf("test grand -1 %X \n", -1);
 }
